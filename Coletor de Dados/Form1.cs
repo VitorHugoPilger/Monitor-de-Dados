@@ -29,8 +29,7 @@ namespace Coletor_de_Dados
         {
             InitializeComponent();
             SystemTrayIcon();
-            BackgroundCollector();
-
+            BackgroundCollector()
             button1.Text = isRunning.ToString();
         }
 
