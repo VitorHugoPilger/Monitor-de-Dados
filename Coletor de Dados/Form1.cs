@@ -107,5 +107,10 @@ namespace Coletor_de_Dados
                 notifyIcon.ShowBalloonTip(1500);
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
